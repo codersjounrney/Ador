@@ -1,0 +1,849 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+/*bgc start*/
+
+#bgc_box {
+    width: 100%;
+    position: relative;
+}
+
+#bgc_1 {
+    background-image: url(../image/foods.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    z-index: -2;
+}
+
+#greeting {
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    left: 1000px;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    margin: auto;
+
+}
+
+#greeting h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+
+#greeting h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 250px;
+    color: yellow;
+    text-align: center;
+}
+
+#bgc_2 {
+    background-image: url(../image/image1.png);
+    background-size: cover;
+    background-position: right;
+    width: 100vw;
+    height: 90vh;
+
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    transition: .5s;
+
+    
+}
+
+#text{
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    left: 600px;
+    bottom: 0px;
+    right: 0px;
+    top: 120px;
+    margin: auto;
+}
+
+#text h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: bold;
+    font-size: 100px;
+    color: yellow;
+    letter-spacing: 5px;
+}
+
+#text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+#text button {
+    margin-top: 20px;
+    padding: 10px 70px;
+    background-color: yellow;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 20px;
+
+}
+
+button:active {
+    transform: scale(.9);
+}
+
+/*bgc end*/
+
+/*navbar start*/
+
+#nav_bar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+
+}
+
+#logo {
+    width: 40%;
+    height: 60px;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+}
+
+
+span {
+    padding-left: 45%;
+}
+
+span a {
+    color: yellow;
+}
+
+
+
+#nav_items {
+    width: 60%;
+    height: 60px;
+    display: flex;
+
+}
+
+#nav_items ul li {
+    float: left;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+ul li:hover {
+    transform: scale(1.2);
+}
+
+ul li:active {
+    transform: scale(.95);
+}
+
+#nav_items ul li a {
+    color: white;
+}
+
+form {
+    padding: 15px 0px 15px 0px;
+}
+
+input:nth-child(1) {
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background: transparent;
+
+}
+
+input:nth-child(2) {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background: yellow;
+
+}
+
+input:nth-child(2):active {
+    transform: scale(.95);
+}
+
+
+/*nav end*/
+
+/*food introduction start*/
+
+#food_intor {
+    width: 100%;
+    position: relative;
+    border: 5px solid white;
+    margin-top: 100px;
+
+}
+
+#title {
+    width: 50%;
+    margin: auto;
+    text-align: center  ;
+}
+
+#food_intor #title h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 100px;
+    color: yellow;
+
+}
+
+#food_intor #title p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: black;
+
+
+}
+
+#foods_section {
+    width: 100%;
+    margin-top: 80px;
+}
+
+#foods_detail{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#food_1{
+    width: 20%;
+
+    
+}
+
+#image1 {
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#detail1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#detail1 h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+    color: yellow;
+    letter-spacing: 3.5px;
+} 
+
+#detail1 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+#food_2{
+    width: 20%;
+}
+
+#image2 {
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#detail2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#detail2 h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+    color: yellow;
+    letter-spacing: 3.5px;
+} 
+
+#detail2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+#food_3{
+    width: 20%;
+}
+
+#image3 {
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#detail3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#detail3 h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+    color: yellow;
+    letter-spacing: 3.5px;
+} 
+
+#detail3 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+
+
+
+/*food introduction end*/
+
+/*test definition*/
+
+#individual {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../image/image2.png);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    
+}
+
+.definition_image {
+    width: 50%;
+
+    
+}
+
+.imgbox{
+    width: 60%;
+    height: 50vh;
+    background-image: url(../image/oriental.jpg);
+    background-size: cover;
+    background-position: left;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.definition_text {
+    width: 50%;
+
+}
+
+.de_data {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    margin-top: 300px;
+    
+}
+
+.de_data h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: bold;
+    font-size: 100px;
+    color: yellow;
+    letter-spacing: 5px;
+}
+
+.de_data p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.de_data button {
+    margin-top: 20px;
+    padding: 10px 70px;
+    background-color: yellow;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 20px;
+
+}
+
+/*test definiton*/
+
+/*Statistics starts*/
+
+#statistics {
+    width: 100%;
+    background-color: #2F2F2F;
+    background-image: url(../image/image3.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.stat_text {
+    width: 60%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.stat_text h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: bold;
+    font-size: 100px;
+    color: yellow;
+    letter-spacing: 5px;
+}
+
+.stat_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.stat_data {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 200px;
+
+}
+
+.data1 {
+    width: 20%;
+    height: 230.4px;
+    border: 4px solid yellow;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.data1 h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: yellow;
+    letter-spacing: 5px;
+}
+
+.data1 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.data2 {
+    width: 20%;
+    height: 230.4px;
+    border: 4px solid yellow;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.data2 h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: yellow;
+    letter-spacing: 5px;
+}
+
+.data2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.data3 {
+    width: 20%;
+    height: 230.4px;
+    border: 4px solid yellow;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.data3 h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: yellow;
+    letter-spacing: 5px;
+}
+
+.data3 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.data4 {
+    width: 20%;
+    height: 230.4px;
+    border: 4px solid yellow;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.data4 h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: yellow;
+    letter-spacing: 5px;
+}
+
+.data4 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+
+/*Statistics ends*/
+
+
+/*test definition*/
+
+#individual2 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../image/image4.png);
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    
+}
+
+.definition_image2 {
+    width: 50%;
+
+    
+}
+
+.imgbox2{
+    width: 60%;
+    height: 50vh;
+    background-image: url(../image/gril.jpg);
+    background-size: cover;
+    background-position: left;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.definition_text2 {
+    width: 50%;
+
+}
+
+.de_data2 {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    margin-top: 150px;
+    
+}
+
+.de_data2 h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: bold;
+    font-size: 100px;
+    color: yellow;
+    letter-spacing: 5px;
+}
+
+.de_data2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.de_data2 button {
+    margin-top: 20px;
+    padding: 10px 70px;
+    background-color: yellow;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 20px;
+
+}
+
+/*test definiton*/
+
+/*food conclussion fields starts*/
+
+#conclussion_fields {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/foodx.jpg);
+    background-size: cover;
+    margin-top: 200px ;
+    position: relative;
+
+
+}
+
+.conclussion_fieldsimage {
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, .4);
+
+}
+
+.text_panel {
+    width: 35%;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+
+}
+
+.text_panel p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.text_panel h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: bold;
+    font-size: 100px;
+    color: yellow;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+/*food conclussion fields ends*/
+
+
+/*Subscription area starts*/
+
+#sub_area {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/image3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+.main_area {
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+
+}
+
+.sub_text {
+    width: 70%;
+    margin: auto
+}
+
+.sub_text h1 {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.sub_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.sub_info {
+    width: 70%;
+    margin: auto;
+}
+
+.sub_info form {
+    margin: 50px;
+    padding: 0px;
+
+    box-shadow: 0px 0px 10px rgb(184, 184, 184);
+}
+
+.sub_info form #mail {
+    width: 70%;
+    margin: 0px;
+    padding: 20px 50px 20px 10px;
+    border: none ;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.sub_info form #subscribe {
+    width: 20%;
+    margin: 0px;
+    padding: 20px;
+    border-radius: none;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5px ;
+
+}
+
+/*Subscription area ends*/
+
+
+/*Footer starts*/
+
+#footer {
+    width: 100%;
+    background-color: #2F2F2F;
+    color: white;
+    list-style: none;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.main_panel {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info_1 {
+    width: 40%;
+
+}
+
+.h3 h3 {
+    padding: 15px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.info_1 .pera p {
+    padding: 15px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.social_media {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social_media i {
+    font-size: 30px;
+    color: white;
+}
+
+.main_panel ul {
+    padding-top: 15px;
+}
+
+.info_2 {
+    width: 15%;
+
+}
+
+
+
+.info_2 ul a {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.info_3 {
+    width: 15%;
+}
+
+.info_3 ul a {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.info_4 {
+    width: 15%;
+    
+}
+
+.info_4 ul a {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+/*Footer ends*/
